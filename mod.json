@@ -1,0 +1,47 @@
+{
+	"geode": "2.0.0-beta.21",
+	"gd": "2.204",
+	"version": "v1.0.0",
+	"id": "tpdea.songcontrol",
+	"name": "SongControl",
+	"developer": "Tpdea",
+	"description": "Another mod inspired by the collar server",
+	"settings": {
+		"auto-play-next-song": {
+			"name": "Auto Play Next Song",
+			"description": "E",
+			"type": "bool",
+			"default": false
+		},
+		"show-position-music": {
+			"name": "Show Position Music",
+			"description": "E",
+			"type": "bool",
+			"default": false
+		},
+		"auto-play-on-song-change": {
+			"name": "Auto Play On Song Change",
+			"description": "E",
+			"type": "bool",
+			"default": false
+		},
+		"live-search": {
+			"name": "Live Search",
+			"description": "E",
+			"type": "bool",
+			"default": false
+		}
+	},
+	"dependencies": [
+		{
+			"id": "geode.custom-keybinds",
+			"version": ">=v1.2.3",
+			"importance": "required"
+		},
+		{
+			"id": "geode.node-ids",
+			"version": ">=v1.3.0",
+			"importance": "required"
+		}
+	]
+}
